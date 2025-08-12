@@ -1,0 +1,51 @@
+body{
+
+        background-size:cover ;
+        background-image: url("bg1.jpg");
+        background-position:center ;
+        margin:0;
+        height:100vh;
+    }
+    
+    .logo {
+        
+        text-align: center;
+        color:maroon;
+        font-size: 50px;
+
+    }
+    nav{
+        background-color: rgb(230,214,194);
+        text-align: center;
+    }
+    nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5e3d2c;
+  font-weight: bold;
+}
+
+nav .btn {
+  background: #7c4c2f;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+
+}
+h2{
+      color: maroon;
+    text-align: center;
+    font-size: 50px;
+}
+.mid p{
+  text-align: center;
+}
+.end{
+  background-color: rgb(230, 214, 194);
+  color:#5e3d2c;
+}
